@@ -1,17 +1,16 @@
 
-/*45b914*/
-
 .norme {
 
     margin: 0 auto;
     background-color: #FFFFFF;
-
+    background-image:url(/Images/bike-riding-1149234.jpg);
+    
 }
 
 
 .barre-nav {
     
-    padding: 0px 10px;
+    padding: 0px 100px;
     align-items: center;
     display: flex;
     background: #222222;
@@ -21,7 +20,7 @@
 .nav-page:link,
 .nav-page:visited {
 
-    border-left: 5px solid #45b914;
+    border-left: 3px solid #45b914;
     padding: 20px 25px;
     display: inline-block;
     width: 125px;
@@ -31,7 +30,7 @@
     text-decoration: none;
     color: #FFFFFF;
     font-weight: 550;
-    transition: linear .5s;
+    transition: all .5s;
 
 }
 
@@ -46,24 +45,80 @@
     font-family: 'Staatliches', sans-serif;
     font-size: 15px;
     
+}
+
+.buttons {
+    
+    margin-top: 5%;
+    text-align: center;
+
+}
+
+.button1 {
+    
+    border-radius: 50px;
+    font-size: 50px;
+    font-weight: 600;
+    margin-top: 10px;
+    width: 500px;
+    height: 500px;
+    margin-right: 200px;
     
 }
 
+.button2 {
+    
+    border-radius: 50px;
+    font-size: 50px;
+    font-weight: 600;
+    margin-top: 10px;
+    width: 500px;
+    height: 500px;
+    margin-left: 200px; ;
+
+}
+
+.button1:hover {
+    
+    background-color: #45b91446;
+
+}
+
+.button2:hover {
+
+    background-color: #45b91446;
+
+}
+
+
+
+
+
+
 .bas-nav {
-    text-align: center;
-    position: fixed ;
+
+    display: flex;
+    p osition: relative ;
     width: 100%;
     bottom: 0px;
-    height:200px;
+    height: 115px;
     background: #222222;
 }
 
 .titre-bas {
+    
+    margin-right: 20px;
     font-family: 'Staatliches', sans-serif;
     color: #8b8b8b;
-    font-size: 10px;
-    border-bottom: 1px solid #45b914;
-    
+    font-size: 15px;
+    margin-top: 50px;
+    margin-left: 1%;
+
 }
 
+.logo-bas {
 
+    margin-top: 20px;
+    margin-left: 455%;
+
+}
