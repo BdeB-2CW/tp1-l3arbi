@@ -1,10 +1,14 @@
 
+/* Titres : font-family: 'Roboto', sans-serif; 
+   Textes : font-family: 'Open Sans', sans-serif;
+
+/*Toutes les pages*/
+
 .norme {
 
-    margin: 0 auto;
-    background-color: #FFFFFF;
-    background-image:url(/Images/bike-riding-1149234.jpg);
-    
+    margin: 0px auto;
+    background-color: #222222;
+
 }
 
 
@@ -47,6 +51,14 @@
     
 }
 
+.section-tete {
+    width: 100%;
+    height: auto;
+}
+
+
+/* Categories 1 et 2*/
+
 .buttons {
     
     margin-top: 5%;
@@ -62,7 +74,7 @@
     margin-top: 10px;
     width: 500px;
     height: 500px;
-    margin-right: 200px;
+    margin-right: 100px;
     
 }
 
@@ -74,7 +86,7 @@
     margin-top: 10px;
     width: 500px;
     height: 500px;
-    margin-left: 200px; ;
+    margin-left: 100px; ;
 
 }
 
@@ -91,34 +103,56 @@
 }
 
 
+/* Produits 1 à 4 */
 
-
-
-
-.bas-nav {
-
+.section-produit {
+    margin : 150px;
     display: flex;
-    p osition: relative ;
-    width: 100%;
-    bottom: 0px;
-    height: 115px;
-    background: #222222;
 }
 
-.titre-bas {
+.imgs-produit {
+
+    /*lien vers le site : https://www.costway.ca*/
+    margin-left: 12%;    
     
-    margin-right: 20px;
-    font-family: 'Staatliches', sans-serif;
-    color: #8b8b8b;
+    
+}
+
+.titre-produit {
+    
+    text-align: center;
+    color: #FFFFFF;
+    font-family: 'Roboto', sans-serif; 
+    font-size: 25px;
+   
+}
+
+.texte-produit {
+
+    margin-left: 50px;
+    margin-right: 50px;
+    font-family: 'Open Sans', sans-serif;
     font-size: 15px;
-    margin-top: 50px;
-    margin-left: 1%;
+    color : #FFFFFF;
+    border-left: 3px solid #45b914;
+}
+
+.bouton-produit {
+
+    width: 200px;
+    height: 100px;
+    font-family: 'Roboto', sans-serif;
+    background-color: black; 
+    font-size: 25px;
+    color: #FFFFFF;
+    border-radius: 15px;
 
 }
 
-.logo-bas {
+.bouton-produit:hover {
 
-    margin-top: 20px;
-    margin-left: 455%;
+    background-color: #45b9149d;
+    color: black;
+
 
 }
