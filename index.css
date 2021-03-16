@@ -1,7 +1,21 @@
 
 /* Titres : font-family: 'Roboto', sans-serif; 
    Textes : font-family: 'Open Sans', sans-serif;
+   site : fonts.google.com
 
+   pour le logo : logomakr.com
+
+   j'ai aussi utilié Befunky.com pour ajouter des petits effets aux images
+
+   /*lien vers les produits : https://www.costway.ca/adjustable-exercise-bicycle-cycling-cardio-fitness-with-18-lbs-flywheel.html?fee=45&fep=11619&utm_source=google&utm_medium=cpc&gclid=Cj0KCQjwi7yCBhDJARIsAMWFScO_rSi4LBm2-b1xFiz346HSX1W7nkPIrE87PSR52c9pR3auepKx04caAv_sEALw_wcB
+                              https://www.amazon.ca/-/fr/P%C3%A9dalier-dexercice-bureau-silencieux-jambes/dp/B08G1G74GM/ref=zg_bs_2438979011_31/141-6429050-7385803?_encoding=UTF8&refRID=G83TQ52MTENQ0SG2JDHT&th=1*/
+
+    /* site pour les images utilisées (sauf les produits) www.pixabay.com 
+
+
+    
+    
+    
 /*Pour toutes les pages*/
 
 .norme {
@@ -76,6 +90,8 @@
     width: 500px;
     height: 500px;
     margin-right: 100px;
+    max-width: auto;
+    background-color: rgba(0, 0, 0, 0.295);
     
 }
 
@@ -88,6 +104,7 @@
     width: 500px;
     height: 500px;
     margin-left: 100px; ;
+    background-color: rgba(0, 0, 0, 0.295);
 
 }
 
@@ -113,8 +130,7 @@
 
 .imgs-produit {
 
-    /*lien vers le site : https://www.costway.ca*/
-    margin-left: 12%;        
+          
     
 }
 
@@ -151,7 +167,7 @@
     width: 200px;
     height: 100px;
     font-family: 'Roboto', sans-serif;
-    background-color: black; 
+    background-color: rgba(0, 0, 0, 0.295); 
     font-size: 25px;
     color: #FFFFFF;
     border-radius: 15px;
