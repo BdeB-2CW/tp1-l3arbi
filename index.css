@@ -1,10 +1,28 @@
 
+/* Titres : font-family: 'Roboto', sans-serif; 
+   Textes : font-family: 'Open Sans', sans-serif;
+   site : fonts.google.com
+
+   pour le logo : logomakr.com
+
+   j'ai aussi utilié Befunky.com pour ajouter des petits effets aux images
+
+   /*lien vers les produits : https://www.costway.ca/adjustable-exercise-bicycle-cycling-cardio-fitness-with-18-lbs-flywheel.html?fee=45&fep=11619&utm_source=google&utm_medium=cpc&gclid=Cj0KCQjwi7yCBhDJARIsAMWFScO_rSi4LBm2-b1xFiz346HSX1W7nkPIrE87PSR52c9pR3auepKx04caAv_sEALw_wcB
+                              https://www.amazon.ca/-/fr/P%C3%A9dalier-dexercice-bureau-silencieux-jambes/dp/B08G1G74GM/ref=zg_bs_2438979011_31/141-6429050-7385803?_encoding=UTF8&refRID=G83TQ52MTENQ0SG2JDHT&th=1*/
+
+    /* site pour les images utilisées (sauf les produits) www.pixabay.com 
+
+
+    
+    
+    
+/*Pour toutes les pages*/
+
 .norme {
 
-    margin: 0 auto;
-    background-color: #FFFFFF;
-    background-image:url(/Images/bike-riding-1149234.jpg);
-    
+    margin: 0px auto;
+    background-color: #222222;
+
 }
 
 
@@ -14,6 +32,7 @@
     align-items: center;
     display: flex;
     background: #222222;
+    border-bottom : 5px solid #45b914;
 ;
 }
 
@@ -47,6 +66,14 @@
     
 }
 
+.section-tete {
+    width: 100%;
+    height: auto;
+}
+
+
+/* Categories 1 et 2*/
+
 .buttons {
     
     margin-top: 5%;
@@ -62,7 +89,9 @@
     margin-top: 10px;
     width: 500px;
     height: 500px;
-    margin-right: 200px;
+    margin-right: 100px;
+    max-width: auto;
+    background-color: rgba(0, 0, 0, 0.295);
     
 }
 
@@ -74,7 +103,8 @@
     margin-top: 10px;
     width: 500px;
     height: 500px;
-    margin-left: 200px; ;
+    margin-left: 100px; ;
+    background-color: rgba(0, 0, 0, 0.295);
 
 }
 
@@ -91,34 +121,62 @@
 }
 
 
+/* Produits 1 à 4 */
 
-
-
-
-.bas-nav {
-
+.section-produit {
+    margin : 150px;
     display: flex;
-    p osition: relative ;
-    width: 100%;
-    bottom: 0px;
-    height: 115px;
-    background: #222222;
 }
 
-.titre-bas {
+.imgs-produit {
+
+          
     
-    margin-right: 20px;
-    font-family: 'Staatliches', sans-serif;
-    color: #8b8b8b;
+}
+
+.titre-produit {
+    
+    text-align: end;
+    color: #FFFFFF;
+    font-family: 'Roboto', sans-serif; 
+    font-size: 25px;
+    padding-bottom : 50px;
+    border-bottom : 1px solid #45b914 ;
+    margin-right: 100px;
+    margin-left: 1100px;
+    margin-bottom: -100px;
+    margin-top: 100px;
+    
+    
+}
+
+.texte-produit {
+
+    margin-right: 50px;
+    font-family: 'Open Sans', sans-serif;
     font-size: 15px;
-    margin-top: 50px;
-    margin-left: 1%;
+    color : #FFFFFF;
+    padding : 30px;
+    border-left: 5px solid #45b914;
+    margin-bottom: 500px
 
 }
 
-.logo-bas {
+.bouton-produit {
 
-    margin-top: 20px;
-    margin-left: 455%;
+    width: 200px;
+    height: 100px;
+    font-family: 'Roboto', sans-serif;
+    background-color: rgba(0, 0, 0, 0.295); 
+    font-size: 25px;
+    color: #FFFFFF;
+    border-radius: 15px;
+
+}
+
+.bouton-produit:hover {
+
+    background-color: #45b9149d;
+    color: black;
 
 }
